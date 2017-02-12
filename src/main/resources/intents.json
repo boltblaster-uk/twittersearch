@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "GetUserTimeline",
+      "slots": [
+        {
+          "name": "screenName",
+          "type": "LIST_OF_SCREENAMES"
+        }
+      ]
+    },
+    {
+      "intent": "SearchByHashtag",
+      "slots": [
+        {
+          "name": "hashtag",
+          "type": "LIST_OF_HASHTAGS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
